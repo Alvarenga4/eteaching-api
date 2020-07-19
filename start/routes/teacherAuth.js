@@ -7,5 +7,5 @@ Route.group(() => {
   Route.post('/signUp', 'AuthController.store').middleware(['guest'])
   Route.post('/signIn', 'AuthController.create').middleware(['guest'])
 })
-  .prefix('v1/admin')
-  .namespace('AdminAuth')
+  .prefix('v1/teacher')
+  .namespace('TeacherAuth')

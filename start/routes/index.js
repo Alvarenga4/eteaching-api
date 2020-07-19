@@ -17,3 +17,4 @@
 
 //Importa as Rotass
 require('./adminAuth')
+require('./teacherAuth')
