@@ -38,6 +38,10 @@ class User extends Model {
   admin() {
     return this.hasOne('App/Models/Admin')
   }
+
+  teacher() {
+    return this.hasOne('App/Models/Teacher')
+  }
 }
 
 module.exports = User
